@@ -13,6 +13,22 @@ a.) make seqFinder
 b.) ./SeqFinder -srt <srt_file_name_with_path> -lcp <lcp_file_name_with_path> -output <output_file_name_with_path> 
 
 
+Output Example:
+
+Initial           Final          Count         InitialGap    FinalGap      String
+
+12308 	          12315 	        8 		        0 			      0	 	          AAAATTTT
+
+2099 	            2124 	          20 		        2109 		      2114 	        GTCCAAAGAGGAACAGCTCTTTGGAC
+
+Time Complexity:
+
+For constant "allowed gap value" and "number of total such sequences" the time complexity is O(n). 
+
+Explanation:
+It is O(stringLength * AllowedGap * size). However, the gap value is constant (default value is 10) and also the "number of total such sequences" is very less compared to the size of the string "n". That is why, we can ignore those values as they are negligible compared to the size of the string and thus, the time complexity becomes linear.
+
+
 
 Acknowledgment:
 I would like to thank Dr.M.Ganapathiraju for her guidance in completing the project.
