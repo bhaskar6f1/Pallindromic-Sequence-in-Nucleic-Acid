@@ -1,4 +1,4 @@
-# Pallindromic-Sequence-in-Nucleic-Acid
+# Pallindromic-Sequence-in-Nucleic-Acid (Linear Time Algorithm)
 
 
 1. inv.c - This file generates the string complement pair of a given input string.
@@ -36,3 +36,4 @@ I would like to thank Dr.M.Ganapathiraju for her guidance in completing the proj
 References:
 1. https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-12-12
 2. https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3602881/
+3. https://www.ncbi.nlm.nih.gov/pubmed/15693744
